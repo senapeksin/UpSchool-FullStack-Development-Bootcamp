@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32929.386
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UpSchoolHW_01", "UpSchoolHW_01\UpSchoolHW_01.csproj", "{C88ACAF8-56C6-433A-9981-6238F3F0DAB7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UpSchoolHW_02", "UpSchoolHW_02", "{6D31EE59-7443-4ED1-9BF2-990CFAFE5517}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UpSchoolHW_02", "UpSchoolHW_02", "{0D5F2169-2D72-4211-97EF-07641056224D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UpSchool.Wasm", "..\..\Lesson\UpSchool-TheBasics\src\UpSchool.Wasm\UpSchool.Wasm.csproj", "{F836F951-532B-4A85-AFC6-8FDAE659D908}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UpSchool.Domain", "..\..\Lesson\UpSchool-TheBasics\src\UpSchool.Domain\UpSchool.Domain.csproj", "{A0BE6481-69C5-406D-A68F-37821690D98A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UpSchool.Domain", "..\..\Lesson\UpSchool-TheBasics\src\UpSchool.Domain\UpSchool.Domain.csproj", "{5287BF51-B831-4CE7-80B0-E628DA07D101}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UpSchool.Wasm", "..\..\Lesson\UpSchool-TheBasics\src\UpSchool.Wasm\UpSchool.Wasm.csproj", "{E1F40C83-90B6-4454-A4DC-6040E01C303E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,21 +21,20 @@ Global
 		{C88ACAF8-56C6-433A-9981-6238F3F0DAB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C88ACAF8-56C6-433A-9981-6238F3F0DAB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C88ACAF8-56C6-433A-9981-6238F3F0DAB7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F836F951-532B-4A85-AFC6-8FDAE659D908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F836F951-532B-4A85-AFC6-8FDAE659D908}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F836F951-532B-4A85-AFC6-8FDAE659D908}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F836F951-532B-4A85-AFC6-8FDAE659D908}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5287BF51-B831-4CE7-80B0-E628DA07D101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5287BF51-B831-4CE7-80B0-E628DA07D101}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5287BF51-B831-4CE7-80B0-E628DA07D101}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5287BF51-B831-4CE7-80B0-E628DA07D101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0BE6481-69C5-406D-A68F-37821690D98A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0BE6481-69C5-406D-A68F-37821690D98A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0BE6481-69C5-406D-A68F-37821690D98A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0BE6481-69C5-406D-A68F-37821690D98A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1F40C83-90B6-4454-A4DC-6040E01C303E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1F40C83-90B6-4454-A4DC-6040E01C303E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1F40C83-90B6-4454-A4DC-6040E01C303E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1F40C83-90B6-4454-A4DC-6040E01C303E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{F836F951-532B-4A85-AFC6-8FDAE659D908} = {6D31EE59-7443-4ED1-9BF2-990CFAFE5517}
-		{5287BF51-B831-4CE7-80B0-E628DA07D101} = {6D31EE59-7443-4ED1-9BF2-990CFAFE5517}
+		{A0BE6481-69C5-406D-A68F-37821690D98A} = {0D5F2169-2D72-4211-97EF-07641056224D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CEEC6765-7F3E-4BB3-BEFB-EC4ED35D4AE2}
