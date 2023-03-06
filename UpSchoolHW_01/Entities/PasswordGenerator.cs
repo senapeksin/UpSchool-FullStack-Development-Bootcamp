@@ -7,8 +7,7 @@ namespace UpSchoolHW_01.Entities
 
         public static string UpperLetters = "ABCÇDEFGĞHİIJKLMNOÖPRSŞTUÜVYZ";
         public static string Numbers = "0123456789";
-        public static string SpecialCharacters = "!+%&/()=?*-";
-        public int deneme { get; set; }
+        public static string SpecialCharacters = "!+%&/()=?*-"; 
         public static char[] Password;
         public static string charSet = string.Empty;
          
