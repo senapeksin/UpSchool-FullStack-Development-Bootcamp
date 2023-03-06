@@ -20,5 +20,9 @@
                     break;
             }
         }
+        public static string GetCssColourClassForUndoButton()
+        {
+            return "black";
+        }
     }
 }
